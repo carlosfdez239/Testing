@@ -1,0 +1,788 @@
+Informe logs
+========================================
+
+SN: 165914
+----------------------------------------
+Datos log: {
+    "EOL_TEST": {
+        "DECODE": {
+            "TYPE": "healthV3",
+            "HEALTH": "10 02 42 5E 88 1A 01 4F 00 00 00 08 40 00 00 02 1E 11 98 54 00 00 02 88 1A 03 09 00 00 10 03",
+            "NODE_ID": 165914,
+            "NODE_MODEL": "LSG7ACL-BXLH-TIL",
+            "TIME_DELTA": 0,
+            "SUB_VERSION": 1,
+            "TEMPERATURE": 25,
+            "SERIAL_NUMBER": 165914,
+            "UPTIME_SECONDS": 2,
+            "FIRMWARE_VERSION": "3.9",
+            "TIME_DELTA_UNITS": "seconds",
+            "INPUT_POWER_VOLTS": 4.81,
+            "RELATIVE_HUMIDITY": 53.3,
+            "RELATIVE_HUMIDITY_STD": 0,
+            "RELATIVE_HUMIDITY_DELTA": 0
+        },
+        "FW_BIN": "V3_9.bin",
+        "STATUS": "success",
+        "TEST_1": {
+            "CURR_POWER_UP": {
+                "Units": "mA",
+                "Data_Max": 100,
+                "Data_Min": 0.1,
+                "In_Range": true,
+                "Data_Value": 30.566
+            }
+        },
+        "TEST_2": {
+            "BATT": {
+                "Units": "mA",
+                "Data_Max": 50,
+                "Data_Min": 0.01,
+                "In_Range": true,
+                "Data_Value": 28.512
+            }
+        },
+        "TEST_10": {
+            "TEST_VERSION": "PCA_Test_v20250221.>OK."
+        },
+        "TEST_11": {
+            "Hum": {
+                "Units": "%",
+                "Data_Max": 70,
+                "Data_Min": 20,
+                "In_Range": true,
+                "Data_Value": 52.59
+            },
+            "Temp": {
+                "Units": "C",
+                "Data_Max": 28,
+                "Data_Min": 14,
+                "In_Range": true,
+                "Data_value": 24.86
+            },
+            "TEST_TEMP_HUM": "Temp [C]: +24.86.RH [%]: +52.59.>OK."
+        },
+        "TEST_12": {
+            "TEST_FLASH": ">OK."
+        },
+        "TEST_13": {
+            "V_BATT": {
+                "Units": "mV",
+                "Data_Max": 5000,
+                "Data_Min": 4600,
+                "In_Range": true,
+                "Data_Value": 4819
+            },
+            "TEST_VIN": "V_BATT [mV]: 4819.>OK."
+        },
+        "TEST_14": {
+            "LOW_POW_CURR": {
+                "Units": "mA",
+                "Data_Max": 0.25,
+                "Data_Min": 0.002,
+                "In_Range": true,
+                "Data_Value": 0.008
+            }
+        },
+        "TEST_15": {
+            "FULL_POW_CURR": {
+                "Units": "mA",
+                "Data_Max": 100,
+                "Data_Min": 1,
+                "In_Range": true,
+                "Data_Value": 9.964
+            }
+        },
+        "TEST_17": {
+            "TEST_LORA_TX": {
+                "RSSI": {
+                    "Units": "dB",
+                    "Data_Max": -10,
+                    "Data_Min": -36,
+                    "In_Range": true,
+                    "Data_Value": -16
+                }
+            }
+        },
+        "TEST_18": {
+            "TEST_LORA_RX": {
+                "RSSI": {
+                    "Units": "dB",
+                    "Data_Max": -10,
+                    "Data_Min": -36,
+                    "In_Range": true,
+                    "Data_Value": -14
+                }
+            }
+        },
+        "TEST_21": {
+            "TEST_LP_ACC": {
+                "X": {
+                    "Units": "g",
+                    "Data_Max": 0.1,
+                    "Data_Min": -0.1,
+                    "In_Range": true,
+                    "Data_Value": 0.024
+                },
+                "Y": {
+                    "Units": "g",
+                    "Data_Max": 0.1,
+                    "Data_Min": -0.1,
+                    "In_Range": true,
+                    "Data_Value": 0.008
+                },
+                "Z": {
+                    "Units": "g",
+                    "Data_Max": -0.8,
+                    "Data_Min": -1.3,
+                    "In_Range": true,
+                    "Data_Value": -0.891
+                }
+            }
+        },
+        "TEST_22": {
+            "TEST_HP_ACC": {
+                "X": {
+                    "Units": "g",
+                    "Data_Max": 0.1,
+                    "Data_Min": -0.1,
+                    "In_Range": true,
+                    "Data_Value": 0.013
+                },
+                "Y": {
+                    "Units": "g",
+                    "Data_Max": 0.1,
+                    "Data_Min": -0.1,
+                    "In_Range": true,
+                    "Data_Value": -0.001
+                },
+                "Z": {
+                    "Units": "g",
+                    "Data_Max": 1.1,
+                    "Data_Min": 0.9,
+                    "In_Range": true,
+                    "Data_Value": 1.006
+                }
+            }
+        },
+        "TEST_23": {
+            "TEST_MAG_MMC": "X: 124.75.Y: 309.22.Z: 264.53.>OK.",
+            "TEST_MAG_MMC_Results": {
+                "X": {
+                    "Units": " ",
+                    "Data_Max": 1500,
+                    "Data_Min": 0,
+                    "In_Range": true,
+                    "Data_Value": 124.75
+                },
+                "Y": {
+                    "Units": " ",
+                    "Data_Max": 1500,
+                    "Data_Min": 0,
+                    "In_Range": true,
+                    "Data_Value": 309.22
+                },
+                "Z": {
+                    "Units": " ",
+                    "Data_Max": 1500,
+                    "Data_Min": 0,
+                    "In_Range": true,
+                    "Data_Value": 264.53
+                }
+            }
+        },
+        "TEST_24": {
+            "TEST_LORA_ID": "LORA EUI: 184321562401192220.>OK."
+        },
+        "TEST_26": {
+            "TEST_STM32_ID": "STM32 unique device identifier (UID): 0x002e001a5431500220343848"
+        },
+        "TEST_35": {
+            "TEST_BLE_ENABLE": ">OK."
+        },
+        "TEST_36": {
+            "TEST_BLE_FW": "FW: 126.3.3.26.>OK.",
+            "BLE_FW_CHECK": {
+                "In_Range": true,
+                "Data_Value": "FW: 126.3.3.26.>OK.",
+                "Expected_Value": "FW: 126.3.3.26.>OK."
+            }
+        },
+        "TEST_37": {
+            "TEST_BT_ID": "Id: 0018C2930CCB3C.>OK."
+        },
+        "TEST_38": {
+            "BLE RSSI": -55,
+            "TEST_BLE_RSSI": {
+                "RSSI": {
+                    "Units": "dB",
+                    "Data_Max": -25,
+                    "Data_min": -70,
+                    "In_Range": true,
+                    "Data_Value": -55
+                }
+            }
+        },
+        "TEST_55": {
+            "CURRENT_MEAS": 17.579,
+            "TEST_LORA_TX 868000 14 7": "Sequence: 0.>OK."
+        },
+        "CASSETTE": "1",
+        "FIXTURE_ID": "00UUT25",
+        "COMPARATION": {
+            "MAC": {
+                "Read": "0x5e2881a",
+                "In_Range": true,
+                "Calculated": "0x5e2881a"
+            },
+            "PRCODE": {
+                "Read": 94,
+                "In_Range": true,
+                "Calculated": 94
+            },
+            "SERIAL": {
+                "Read": 165914,
+                "In_Range": true,
+                "Calculated": 165914
+            },
+            "FW_VERSION": {
+                "Read": 3.9,
+                "In_Range": true,
+                "Calculated": 3.9
+            },
+            "HW_VERSION": {
+                "Read": "0x0",
+                "In_Range": true,
+                "Calculated": "0x0"
+            }
+        },
+        "FIXTURE_VERSION": "0.2"
+    },
+    "READ_MANUAL_VAR": {
+        "SN": "LSG7ACL-BXLH-1;165914",
+        "Location": "11",
+        "SENSOR_SN": "M;26790157",
+        "Lora_Label": "202516;20250417",
+        "Negative_Code": "LSG7ACL-BXLH-TIL-W-2;02900226"
+    },
+    "CALIBRATOR_CHECK_MAC": {
+        "68": {
+            "readed": "0x5e2881a",
+            "spected": "0x5e2881a",
+            "operationRoute": {
+                "Id": "13c4b029-c16f-4662-9f36-29b9ba374e92",
+                "Data": {},
+                "Slot": null,
+                "Index": 68,
+                "Media": "https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Title": "Comprobar Mac",
+                "Disabled": 0,
+                "Subtitle": "Comprobar Mac",
+                "Mandatory": 1,
+                "MaxRetries": 5,
+                "Description": "Comprobar Mac",
+                "IdOperation": "242c8259-a46d-4e44-a3d7-1f1d7a229ebe",
+                "MenuItemText": "Sincronizando nodos",
+                "IdProcessRoute": "66efcc39-4320-43ef-a222-122f6c62a771",
+                "ExpectedSeconds": 300,
+                "OperationRouteType": 3
+            }
+        },
+        "101": {
+            "readed": "0x5e2881a",
+            "spected": "0x5e2881a",
+            "operationRoute": {
+                "Id": "7622bced-9304-4237-94c6-28c366d3849c",
+                "Data": {},
+                "Slot": null,
+                "Index": 101,
+                "Media": "https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "Title": "Comprobar Mac",
+                "Disabled": 0,
+                "Subtitle": "Comprobar Mac",
+                "Mandatory": 1,
+                "MaxRetries": 5,
+                "Description": "Comprobar Mac",
+                "IdOperation": "242c8259-a46d-4e44-a3d7-1f1d7a229ebe",
+                "MenuItemText": "Fin",
+                "IdProcessRoute": "66efcc39-4320-43ef-a222-122f6c62a771",
+                "ExpectedSeconds": 100,
+                "OperationRouteType": 3
+            }
+        }
+    },
+    "CALIBRATOR_CHECK_LIMITS": {
+        "limits": {
+            "1": {
+                "Y": 0.08,
+                "Z": 0.08
+            },
+            "2": {
+                "Y": 0.008,
+                "Z": 0.23
+            },
+            "3": {
+                "Y": 0.008
+            }
+        },
+        "readed": {
+            "1": {
+                "Y": {
+                    "limit": 0.08,
+                    "result": 0.0238
+                },
+                "Z": {
+                    "limit": 0.08,
+                    "result": 0.0068
+                }
+            },
+            "2": {
+                "Y": {
+                    "limit": 0.008,
+                    "result": 0.0038
+                },
+                "Z": {
+                    "limit": 0.23,
+                    "result": 0.0118
+                }
+            }
+        },
+        "version": "0"
+    },
+    "CALIBRATOR_RESET_DEVICE": "1002425e881afa0000001003",
+    "CALIBRATOR_READ_DEVICE_VAR": [
+        {
+            "type": "READ",
+            "plane": "XZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 4.133333333333334,
+                        "counts": 1600.8916625976562,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.9,
+                        "counts": -2928.1059407552084,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.5,
+                        "counts": 257615.41458333333,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.3",
+                "highPrecision": 1
+            },
+            "degrees": 0,
+            "timeStamp": "2025-05-30T04:08:33.837Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "XZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 3.966666666666667,
+                        "counts": -259234.29739583333,
+                        "channel": 0
+                    },
+                    {
+                        "std": 4.066666666666666,
+                        "counts": -2019.1404907226563,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.533333333333333,
+                        "counts": -5883.370263671875,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.4",
+                "highPrecision": 1
+            },
+            "degrees": 90,
+            "timeStamp": "2025-05-30T04:13:34.796Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "XZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 3.6666666666666665,
+                        "counts": 3861.469034830729,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.8333333333333335,
+                        "counts": -2238.5881103515626,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.5,
+                        "counts": -267231.1697916667,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.2",
+                "highPrecision": 1
+            },
+            "degrees": 180,
+            "timeStamp": "2025-05-30T04:18:35.003Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "XZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 4.066666666666666,
+                        "counts": 264610.778125,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.8666666666666663,
+                        "counts": -3058.1499837239585,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.8,
+                        "counts": -3475.6107177734375,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.2",
+                "highPrecision": 1
+            },
+            "degrees": 270,
+            "timeStamp": "2025-05-30T04:23:36.298Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "YZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 3.7333333333333334,
+                        "counts": 2092.740486653646,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.8,
+                        "counts": -2384.5047526041667,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.666666666666667,
+                        "counts": 257617.0265625,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.3",
+                "highPrecision": 1
+            },
+            "degrees": 0,
+            "timeStamp": "2025-05-30T04:30:34.627Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "YZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 4.133333333333334,
+                        "counts": -3054.407120768229,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.8,
+                        "counts": -264005.56145833334,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.6,
+                        "counts": -6020.863118489583,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.3",
+                "highPrecision": 1
+            },
+            "degrees": 90,
+            "timeStamp": "2025-05-30T04:35:34.833Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "YZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 3.966666666666667,
+                        "counts": 6276.205973307292,
+                        "channel": 0
+                    },
+                    {
+                        "std": 3.7333333333333334,
+                        "counts": 232.70238037109377,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.8,
+                        "counts": -267208.79270833335,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.2",
+                "highPrecision": 1
+            },
+            "degrees": 180,
+            "timeStamp": "2025-05-30T04:40:34.712Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "READ",
+            "plane": "YZ",
+            "result": {
+                "type": "tilt360RawDataV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 5.033333333333333,
+                        "counts": 11351.64521484375,
+                        "channel": 0
+                    },
+                    {
+                        "std": 6.033333333333333,
+                        "counts": 261753.85572916668,
+                        "channel": 1
+                    },
+                    {
+                        "std": 5.833333333333333,
+                        "counts": -3293.151171875,
+                        "channel": 2
+                    }
+                ],
+                "errorCode": 0,
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "msgVersion": 0,
+                "temperature": "23.2",
+                "highPrecision": 1
+            },
+            "degrees": 270,
+            "timeStamp": "2025-05-30T04:45:36.493Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "CHECK",
+            "plane": "YZ",
+            "result": {
+                "type": "til90ReadingsV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 1.95e-05,
+                        "tilt": -1.2519,
+                        "channel": 0
+                    },
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -88.7189,
+                        "channel": 1
+                    },
+                    {
+                        "std": 2.73e-05,
+                        "tilt": -0.2718,
+                        "channel": 2
+                    }
+                ],
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "temperature": 23.3,
+                "highPrecision": 1,
+                "readTimestamp": "2025-05-30T04:46:16Z"
+            },
+            "degrees": 90,
+            "timeStamp": "2025-05-30T04:46:26.547Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "CHECK",
+            "plane": "YZ",
+            "result": {
+                "type": "til90ReadingsV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -1.1122,
+                        "channel": 0
+                    },
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -45.257,
+                        "channel": 1
+                    },
+                    {
+                        "std": 2.34e-05,
+                        "tilt": 44.7214,
+                        "channel": 2
+                    }
+                ],
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "temperature": 23.3,
+                "highPrecision": 1,
+                "readTimestamp": "2025-05-30T04:46:45Z"
+            },
+            "degrees": 45,
+            "timeStamp": "2025-05-30T04:46:55.254Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "CHECK",
+            "plane": "YZ",
+            "result": {
+                "type": "til90ReadingsV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -0.2648,
+                        "channel": 0
+                    },
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -5.277,
+                        "channel": 1
+                    },
+                    {
+                        "std": 2.73e-05,
+                        "tilt": 84.7164,
+                        "channel": 2
+                    }
+                ],
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "temperature": 23.3,
+                "highPrecision": 1,
+                "readTimestamp": "2025-05-30T04:47:12Z"
+            },
+            "degrees": 5,
+            "timeStamp": "2025-05-30T04:47:22.407Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "CHECK",
+            "plane": "YZ",
+            "result": {
+                "type": "til90ReadingsV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 1.56e-05,
+                        "tilt": -0.1841,
+                        "channel": 0
+                    },
+                    {
+                        "std": 1.17e-05,
+                        "tilt": -2.2786,
+                        "channel": 1
+                    },
+                    {
+                        "std": 2.73e-05,
+                        "tilt": 87.7139,
+                        "channel": 2
+                    }
+                ],
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "temperature": 23.3,
+                "highPrecision": 1,
+                "readTimestamp": "2025-05-30T04:47:36Z"
+            },
+            "degrees": 2,
+            "timeStamp": "2025-05-30T04:47:46.146Z",
+            "serialNumber": "165914"
+        },
+        {
+            "type": "CHECK",
+            "plane": "YZ",
+            "result": {
+                "type": "til90ReadingsV1",
+                "nodeId": 165914,
+                "readings": [
+                    {
+                        "std": 1.17e-05,
+                        "tilt": -0.129,
+                        "channel": 0
+                    },
+                    {
+                        "std": 1.17e-05,
+                        "tilt": -0.2808,
+                        "channel": 1
+                    },
+                    {
+                        "std": 2.34e-05,
+                        "tilt": 89.691,
+                        "channel": 2
+                    }
+                ],
+                "nodeModel": "LSG7ACL-BXLH-TIL",
+                "temperature": 23.3,
+                "highPrecision": 1,
+                "readTimestamp": "2025-05-30T04:47:59Z"
+            },
+            "degrees": 0,
+            "timeStamp": "2025-05-30T04:48:08.941Z",
+            "serialNumber": "165914"
+        }
+    ],
+    "CALIBRATOR_SET_DEVICE_PARAMS": {
+        "gain_x": 0.977388,
+        "gain_y": 0.973829,
+        "gain_z": 0.975523,
+        "offset_x": -2627.454434,
+        "offset_y": 1096.388667,
+        "offset_z": 4690.195967
+    }
+}
+

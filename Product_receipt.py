@@ -10,6 +10,7 @@ Todo:
 
 revision history:
     1.0 - Initial version with basic structure for PDF generation.
+    1.1 - Added Color_Text module for colored text output. 06/08/2025
     
 '''
 from reportlab.lib.pagesizes import letter
@@ -20,6 +21,7 @@ from reportlab.lib.units import mm
 import json
 import pandas as pd
 import mysql.connector
+import Color_Text as color
 
 # Conexión a la base de datos MySQL
 conn = mysql.connector.connect(
@@ -68,7 +70,7 @@ cursor.execute(query, (producto,))
 rows = cursor.fetchall()
 
 if not rows:
-    print(f"No se encontraron datos para el producto: {producto}")
+    print(color.color_text(f"\nNo se encontraron datos para el producto: {producto}\n\n", color.ROJO))
     exit()
 
 # Agrupar por proceso y luego por fase
@@ -108,7 +110,7 @@ with open(file_name, 'w', encoding='utf-8') as f:
         f.write(f"Proceso {proceso_id}: {proceso_data['descripcion']}\n")
         f.write("-" * 60 + "\n")
 
-        for fase_nombre, fase_data in proceso_data["fases"].items():
+        for fase_nombre, fase_data in sorted(proceso_data["fases"].items()):
             f.write(f"  Fase: {fase_nombre} - {fase_data['descripcion']}\n")
             
             operaciones_ordenadas = sorted(fase_data["operaciones"], key=lambda x: x["index"] or 0)
@@ -117,5 +119,4 @@ with open(file_name, 'w', encoding='utf-8') as f:
             f.write("\n")
         f.write("\n")
 
-print(f"\n✅ Archivo generado correctamente: {file_name}")
-
+print(color.color_text(f"\n✅ Archivo generado correctamente: {file_name} \n\n", color.VERDE))

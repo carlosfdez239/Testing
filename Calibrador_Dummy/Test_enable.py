@@ -18,7 +18,7 @@ GPIO.setup(ENA, GPIO.OUT)
 STEPS_PER_REV = 3200  # 200 full steps * 16 microsteps
 
 # Habilitar driver (comprobar si ENA es activo LOW o HIGH en tu módulo)
-GPIO.output(ENA, GPIO.LOW)  # normalmente LOW = ENABLE (varía por placa)
+GPIO.output(ENA, GPIO.HIGH)  # normalmente LOW = ENABLE (varía por placa)
 
 def rpm_to_delay(rpm):
     # devuelve delay por semi-fase en segundos (d), tal que se obtiene rpm
@@ -63,7 +63,7 @@ def mover_pasos(pasos, sentido=True, delay_sec=0.001, accel_steps=200):
             d = delay_sec
         pulse(d)
 
-def mover_angulo(angle_deg, rpm=6000.0):
+def mover_angulo(angle_deg, rpm=6.0):
     pasos = pasos_para_angulo(abs(angle_deg))
     d = rpm_to_delay(rpm)
     if d is None:
@@ -74,27 +74,24 @@ def mover_angulo(angle_deg, rpm=6000.0):
 try:
     # Ejemplos:
     print("Habilitando driver")
-    GPIO.output(ENA, GPIO.LOW)
+    GPIO.output(ENA, GPIO.HIGH)
+    print("tensión en Enable durante 10s")
+    time.sleep(10)
 
     # Mover 90 grados a 6 RPM
-    #mover_angulo(90, rpm=600.0)
+    #mover_angulo(90, rpm=6.0)
     #time.sleep(1)
 
     # Girar 4 paradas intermedias: 360/4 = 90 grados cada parada
-    for i in range(4):
-        mover_angulo(360, rpm=80.0)
-        print("Parada intermedia", i+1)
-        time.sleep(0.01)
-    print("Cambiando el sentido de giro")
-    for i in range(4):
-        mover_angulo(-360, rpm=80.0)
-        print("Parada intermedia", i+1)
-        time.sleep(0.01)
+    #for i in range(4):
+    #    mover_angulo(90, rpm=6.0)
+    #    print("Parada intermedia", i+1)
+    #    time.sleep(2)
 
 except KeyboardInterrupt:
     print("Interrumpido")
 
 finally:
     # Desactivar motor (ajusta según comportamiento de tu placa)
-    GPIO.output(ENA, GPIO.HIGH)
+    GPIO.output(ENA, GPIO.LOW)
     GPIO.cleanup()

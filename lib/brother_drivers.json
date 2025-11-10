@@ -1,0 +1,26 @@
+{
+    "printer-driver-brlaser": {
+        "status": "ii",
+        "version": "6-3",
+        "arch": "amd64",
+        "description": "printer driver for (some) Brother laser printers"
+    },
+    "printer-driver-ptouch": {
+        "status": "ii",
+        "version": "1.6-2build1",
+        "arch": "amd64",
+        "description": "printer driver Brother P-touch label printers"
+    },
+    "ql800pdrv:i386": {
+        "status": "ii",
+        "version": "3.1.5",
+        "arch": "i386",
+        "description": "Brother QL Printer Driver"
+    },
+    "ql820nwbpdrv:i386": {
+        "status": "ii",
+        "version": "3.1.5",
+        "arch": "i386",
+        "description": "Brother QL Printer Driver"
+    }
+}

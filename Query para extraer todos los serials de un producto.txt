@@ -1,0 +1,31 @@
+
+Query para GNSS incluye FCT y EOL
+
+SELECT SN,DATA,products.`PartNo` FROM products, units JOIN processes ON processes.`IdProduct`WHERE products.`Id` = 'f5b93ef5-0749-434c-b463-d61aaa2ae30b' LIMIT 1000000
+
+Query para GNSS solo EOL 
+
+SELECT 
+    u.SN,
+    u.StartAt AS Data,
+    u.DATA,
+    p.PartNo,
+    b.Id AS BatchId,
+    b.BatchNumber,
+    pr.Name AS ProcessName,
+    pr.Version AS ProcessVersion,
+    u.CompletedAt,
+    u.UnitResult
+FROM 
+    products p
+JOIN 
+    processes pr ON pr.IdProduct = p.Id
+JOIN 
+    batches b ON b.IdProcess = pr.Id
+JOIN 
+    units u ON u.IdBatch = b.Id
+WHERE 
+    p.Id = 'f5b93ef5-0749-434c-b463-d61aaa2ae30b'
+    AND pr.Id = '7606704e-71e3-44f2-9ae6-17f258d6c59f'
+ORDER BY 
+    b.BatchNumber, u.SN

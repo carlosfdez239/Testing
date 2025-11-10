@@ -1,0 +1,61 @@
+Informe de producto ERP: LSG7ACL-BXLH-VIB-J-1
+============================================================
+
+Proceso a8c44de8-f22a-4b8d-8cd6-ab37a392eb0b: ASSEMBLY
+------------------------------------------------------------
+  Fase: E-WS-10 - ASSEMBLY
+
+  Fase: E-WS-20 - ASSEMBLY
+
+  Fase: E-WS-25 - EOL
+
+  Fase: E-WS-30 - PACKAGING
+
+  Fase: WS-10 - ASSEMBLY
+    [0] Coge una caja metálica, retira el plástico protector y separa la tapa desatornillando los 4 tornillos (Tipo: MANUAL_TASK)
+    [1] Escanea el número de Serie de la caja (Tipo: MANUAL_TASK)
+    [2] Coge una válvula Gore y atorníllala usando el atornillador de color verde (Tipo: MANUAL_TASK)
+    [3] Coge la torreta larga y atorníllala usando el atornillador azul (Tipo: MANUAL_TASK)
+    [4] Coge la antena externa, monta desde el interior de la caja y monta arandela y tuerca usando atornillador azul (Tipo: MANUAL_TASK)
+    [5] Coge una placa de sensores y escanea su código (Tipo: MANUAL_TASK)
+    [6] Coge el cable plano e insértalo en el conector de la placa de sensores (Tipo: MANUAL_TASK)
+    [7] Ubica la placa de sensores dentro de la caja metálica (Tipo: MANUAL_TASK)
+    [8] Ubica la placa de sensores dentro de la caja metálica (Tipo: MANUAL_TASK)
+    [9] Escanea la etiqueta de la LoRa (Tipo: MANUAL_TASK)
+    [10] Conecta el cable plano en la Base board (Tipo: MANUAL_TASK)
+    [11] Conecta en la LoRa el cable de la antena (Tipo: MANUAL_TASK)
+    [12] Sitúa la Base board sobre la placa de sensores y clipa ejerciendo presión manual sobre los centradores (Tipo: MANUAL_TASK)
+    [13] Ubica el conjunto de la electrónica en la caja y fíjala con 4 tornillos usando el atornillador azul (Tipo: MANUAL_TASK)
+
+  Fase: WS-25 - EOL
+    [0] Coge una bisagra y atorníllala sobre la torreta usando el atornillador azul (Tipo: MANUAL_TASK)
+    [1] Coge la tapa y atorníllala a la bisagra usando el atornillador verde (Tipo: MANUAL_TASK)
+    [2] Conecta el cable USB-C y el adaptador de batería en el battery holder (Tipo: MANUAL_TASK)
+    [3] Lanzar proceso automático de test (Tipo: MANUAL_TASK)
+    [4] Imprimiendo Etiqueta EOL (Tipo: MANUAL_TASK)
+
+  Fase: WS-30 - PACKAGING
+    [1] Apretar los 4 tornillos de la tapa con el atornillador verde (Tipo: MANUAL_TASK)
+    [2] Engancha la etiqueta de producto en la cara posterior del nodo (Tipo: MANUAL_TASK)
+    [3] Coge una hoja de cartón y forma la caja del packaging (Tipo: MANUAL_TASK)
+    [4] Coge una espuma y sitúala en el fondo de la caja (Tipo: MANUAL_TASK)
+    [5] Coge una espuma y recorta la forma del nodo, ubícala sobre la espuma dentro de la caja (Tipo: MANUAL_TASK)
+    [6] Coloca el nodo en la espuma dentro de la caja (Tipo: MANUAL_TASK)
+    [8] Ubica el manual se seguridad sobre el nodo (Tipo: MANUAL_TASK)
+    [9] Ubica los accesorios en la caja (Tipo: MANUAL_TASK)
+    [10] Cierra la caja y engancha la etiqueta de packaging (Tipo: MANUAL_TASK)
+
+
+Proceso c89ed3d1-6e87-4c83-9304-de1b972bf578: FCT
+------------------------------------------------------------
+  Fase: E-WS-25 - FCT
+    [0] Escanea el número de serie de la caja  (Tipo: MANUAL_TASK)
+    [1] Lanzar proceso automático de test (Tipo: MANUAL_TASK)
+    [2] Imprimiendo Etiqueta FCT (Tipo: MANUAL_TASK)
+
+  Fase: WS-20 - FCT
+    [1] Escanea el número de serie de la caja  (Tipo: MANUAL_TASK)
+    [2] Lanzar proceso automático de test (Tipo: MANUAL_TASK)
+    [3] Imprimiendo Etiqueta FCT (Tipo: MANUAL_TASK)
+
+
